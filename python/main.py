@@ -24,6 +24,7 @@ def to_dict(initial_data=None):
             break
     return pair_dict
 
+
 def main():
     initial_data = {}
     result_data = to_dict(initial_data)
@@ -32,6 +33,7 @@ def main():
     print("\nSchool and field of study:")
     for key, value in result_data.items():
         print(f"{key.title()}: {value.title()}")
+
 
 if __name__ == "__main__":
     main()
