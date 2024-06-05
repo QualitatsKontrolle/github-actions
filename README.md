@@ -6,11 +6,11 @@ This project aims to document my journey as a beginner in learning about GitHub 
 ## Learning Process
 
 1. **Initial Exploration:** I began by familiarizing myself with the basic concepts of GitHub Actions, such as workflows, actions, and triggers. Understanding the terminology is essential for building a solid foundation.
- 
+
 2. **Hands-On Practice:** To gain practical experience, I started by creating simple workflows for tasks like automated testing, code linting, and deployment. Starting with small, manageable projects helped me understand the workflow syntax and configuration options.
- 
+
 3. **Documentation and Resources:** Utilizing the official GitHub Actions documentation and tutorials provided valuable insights into advanced features and best practices. Additionally, exploring community-contributed actions on the GitHub Marketplace expanded my knowledge and capabilities.
- 
+
 4. **Iterative Learning:** I adopted an iterative approach, continuously refining and optimizing my workflows based on feedback, experimentation, and real-world use cases. Learning from mistakes and troubleshooting issues helped solidify my understanding of GitHub Actions.
   
 
