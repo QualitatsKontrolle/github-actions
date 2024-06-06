@@ -3,7 +3,7 @@
 read -p "Enter number: " number
 
 if [ "$number" = "1" ]; then
-	echo "Number equals 1"
+    echo "Number equals 1"
 else
-	echo "Number is not equal"
+    echo "Number is not equal"
 fi
