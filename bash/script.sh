@@ -35,7 +35,7 @@ home_space() {
 		echo "<h2>Home dir space by user"
 		echo "<pre>"
 		echo "Bytes dir"
-		cd
+		cd || exit
 			sudo du -s /home/* | sort -nr
 		echo "</pre>"
 	fi
@@ -54,6 +54,7 @@ cat << _EOF_
 	<body>
 	<h1>My $TITLE: $HOSTNAME</h1>
 	<p>Updated on $(date +"%x %r %Z") by $USER</p>
+	<p>$TIMESTAMP</p>
 	
 	<h2>$(system_info)</h2>
 	<h2>$(show_uptime)</h2>
