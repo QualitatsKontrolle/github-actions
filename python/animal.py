@@ -5,18 +5,14 @@ class Animal():
         self.name = name
         self.species = species
 
-
     def __str__(self):
-        return f"\nAnimal: {self.name}\nFeeds on: {self.feeding}"
-
+        return f"\nAnimal: {self.name}\nSpecies:{self.species}"
 
     def make_sound(self):
         raise NotImplementedError("Method should be overridden by child classes")
 
-
     def move(self):
         raise NotImplementedError("Method should be overridden by child classes")
-
 
     def info(self):
         return f"{self.name} is a {self.species}"
@@ -26,10 +22,8 @@ class Cow(Animal):
     def __init__(self, name):
         super().__init__(name, "Cow")
 
-
     def make_sound(self):
         return f"{self.name} says Moo!"
-
 
     def move(self):
         return f"{self.name} walks on 4 legs"
@@ -52,24 +46,21 @@ class Sheep(Animal):
     def __init__(self, name):
         super().__init__(name, "Sheep")
 
-
     def make_sound(self):
         return f"{self.name} says Moo!"
 
-
     def move(self):
         return f"{self.name} walks on 4 legs & can sometimes run"
-
 
 def main():
     # create animal instances
     cow = Cow("Jersey")
     chicken = Chicken("Clucky")
     sheep = Sheep("Bully")
-    
+
     # create animal list
     animals = [cow, chicken, sheep]
-    
+
     # show animal behaviors
     for elm in animals:
         elm.info()
