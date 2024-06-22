@@ -63,9 +63,9 @@ def main():
 
     # show animal behaviors
     for elm in animals:
-        elm.info()
-        elm.make_sound()
-        elm.move()
+        print(elm.info())
+        print(elm.make_sound())
+        print(elm.move())
         print()
 
 
