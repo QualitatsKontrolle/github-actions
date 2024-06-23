@@ -33,10 +33,8 @@ class Chicken(Animal):
     def __init__(self, name):
         super().__init__(name, "Chicken")
 
-
     def make_sound(self):
         return f"{self.name} says Cluck!"
-
 
     def move(self):
         return f"{self.name} walks on 2 legs & can flap its wings"
