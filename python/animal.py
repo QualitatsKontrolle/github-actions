@@ -52,7 +52,7 @@ class Sheep(Animal):
 
 
 def main():
-    # 
+    #
     # create animal instances
     cow = Cow("Jersey")
     chicken = Chicken("Clucky")
