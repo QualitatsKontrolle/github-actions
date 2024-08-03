@@ -16,6 +16,6 @@ fn main() {
             println!("Invalid integer");
             return;
         }
-    };
+    }
     println!("Number: {}", number);
 }
