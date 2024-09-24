@@ -10,7 +10,7 @@ def to_dict(initial_data=None):
         "This program seeks to know which institutions were used to pursue a field of study"
     )
     while True:
-        usr_input = input(
+    usr_input = input(
             "Enter items followed by a comma (institution, field of study):\n"
         )
         item_list = usr_input.split(", ")
